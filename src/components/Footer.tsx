@@ -71,19 +71,44 @@ export function Footer() {
 
               <a
                 href="#"
-                aria-label="Twitter"
+                aria-label="Facebook"
                 className="w-9 h-9 rounded-full bg-white/6 flex items-center justify-center hover:bg-white/12 transition"
               >
-                {/* Twitter SVG */}
+                {/* Facebook SVG */}
                 <svg
                   width="16"
                   height="16"
                   viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
+                  className="text-white"
                 >
                   <path
-                    d="M23 3a10.9 10.9 0 01-3.14 1.53A4.48 4.48 0 0012 7v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
+                    d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3V2z"
+                    stroke="currentColor"
+                    strokeWidth="1.2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </a>
+
+              <a
+                href="#"
+                aria-label="TikTok"
+                className="w-9 h-9 rounded-full bg-white/6 flex items-center justify-center hover:bg-white/12 transition"
+              >
+                {/* TikTok SVG */}
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="text-white"
+                >
+                  <path
+                    d="M19 9.5v-5h-5M17 4.5a9 9 0 01-9 9v2c4.5 0 8-2 8-2v4.5a4.5 4.5 0 11-4.5-4.5"
                     stroke="currentColor"
                     strokeWidth="1.2"
                     strokeLinecap="round"
@@ -145,7 +170,7 @@ export function Footer() {
             <div className="mt-6 text-gray-400">
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-green-400" />
-                <span>+234 807 986 9704</span>
+                <span>+234 812 609 1840</span>
               </div>
               <div className="flex items-center gap-3 mt-2">
                 <Mail className="w-5 h-5 text-green-400" />
