@@ -8,12 +8,18 @@ export function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-12 h-12 rounded-md bg-green-00 flex items-center justify-center overflow-hidden">
+              <div className="w-12 h-12 rounded-md bg-green-700/10 flex items-center justify-center overflow-hidden flex-shrink-0">
                 {/* Placeholder image: replace /logo.png with your PNG in public/ or use an imported asset */}
                 <img
                   src="https://previews.dropbox.com/p/thumb/ACzFLWshn_ykf9LuBtjZ9rc_YGe6iRbZdqtPh8nS5glKqZD_RAECIa7xtNGiOtoWh0dU6yLFJpCa8-xWOunyprfZbChIFUYCumkgOs7GKh7Atg6SNqVVOPYKpxu3TcaExAZdxmYtBnCDwOThKIpwws9bhAYHECoJlmGT7qlRLtuIN6R6q4pdxuuxcawYYT3MrbHfjFBKOEyz_nUFgDeRiQk0Hq5ytwFSlKU8WyejGzSSrKbOXkXVlQZwG1KgEsXx0fEoliDcPyr9I1sIBqltrezCal8P2zliYH_-V4zkeDl6LYiwT8LSgjGeb6Nbzw3Ug3VBhhmFhMMWzdA5NJLjHz6v/p.png?is_prewarmed=true"
                   alt="Shinung Square logo"
-                  className="w-full h-full object-contain"
+                  className="block w-full h-full object-contain"
+                  onError={(e) => {
+                    // fallback to a local logo in public/logo.png if the external URL fails on some devices
+                    const img = e.currentTarget as HTMLImageElement;
+                    img.onerror = null;
+                    img.src = "/logo.png";
+                  }}
                 />
               </div>
               <div>
