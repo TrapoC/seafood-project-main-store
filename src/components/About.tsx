@@ -5,9 +5,16 @@ export function About() {
     <section id="about" className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Why Choose Shinung Square?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Catering Services</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Your trusted source for quality seafood, authentic spices, and professional catering
+            Catering Services 
+
+Cross River and Akwa Ibom Local Delicacies
+Afang Soup, Editang, Atama, Edikiankong, Fisherman Soup, Seafood Okro, White Soup, Ekpang Nkukwo 
+
+Phone Number: 08126091840
+
+Facebook, Instagram, WhatsApp, Tiktok.
           </p>
         </div>
 
