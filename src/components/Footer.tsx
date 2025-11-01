@@ -104,7 +104,7 @@ export function Footer() {
                 aria-label="TikTok"
                 className="w-9 h-9 rounded-full bg-white/6 flex items-center justify-center hover:bg-white/12 transition"
               >
-                {/* TikTok SVG */}
+                {/* Fixed TikTok SVG (simpler, filled icon to render reliably on phones) */}
                 <svg
                   width="16"
                   height="16"
@@ -112,13 +112,16 @@ export function Footer() {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                   className="text-white"
+                  aria-hidden="true"
                 >
                   <path
-                    d="M19 9.5v-5h-5M17 4.5a9 9 0 01-9 9v2c4.5 0 8-2 8-2v4.5a4.5 4.5 0 11-4.5-4.5"
-                    stroke="currentColor"
-                    strokeWidth="1.2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
+                    d="M12 2v9.25A3.75 3.75 0 1 0 15.75 13V6.5h-3.75V2z"
+                    fill="currentColor"
+                  />
+                  <path
+                    d="M8.25 16.5a3.75 3.75 0 1 0 3.75 3.75v-3.75A3.75 3.75 0 0 1 8.25 16.5z"
+                    fill="currentColor"
+                    opacity="0.9"
                   />
                 </svg>
               </a>
