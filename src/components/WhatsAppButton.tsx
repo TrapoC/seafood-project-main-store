@@ -1,7 +1,7 @@
 export function WhatsAppButton() {
   const handleWhatsAppClick = () => {
     // WhatsApp expects numbers in international format without + or dashes
-    const phoneNumber = "2348079869704"; // Replace with your WhatsApp number (no +)
+    const phoneNumber = "2348126091840"; // Replace with your WhatsApp number (no +)
     const message = encodeURIComponent(
       "Hello! I am interested in your products and services at Shinung Square."
     );
