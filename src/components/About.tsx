@@ -7,7 +7,7 @@ export function About() {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Catering Services</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Catering Services 
+            At Shinung Square, we specialize in providing top-notch catering services for all occasions. Whether you're planning a wedding, corporate event, or private party, our team is dedicated to delivering an unforgettable culinary experience. We offer a diverse menu featuring the finest seafood, traditional African spices, and local delicacies from
 
 Cross River and Akwa Ibom Local Delicacies
 Afang Soup, Editang, Atama, Edikiankong, Fisherman Soup, Seafood Okro, White Soup, Ekpang Nkukwo 
